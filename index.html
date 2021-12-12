@@ -105,14 +105,24 @@
 								</div>
 								<div class="inner columns divided">
 									<div class="span-3-25">
-										<form>
-										  Nombre:<br>
-										  <input type="text" name="nombre"><br>
-										  Apellido:<br>
-										  <input type="text" name="apellido">
-										  Correo Electrónico:<br>
-										  <input type="text" name="correo">
-										  <input type="submit" value="Submit">
+										<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdgrwcxG9qFjp8xn_ga_KlaUv6MZbl7EyYiElbMrn_cwMNETw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+											<div class="fields">
+												<div class="field half">
+													<label for="name">Nombre</label>
+													<input type="text" name="entry.1672267349" id="entry.1672267349" />
+												</div>
+												<div class="field half">
+													<label for="email">Email</label>
+													<input type="email" name="entry.41355336" id="entry.41355336" />
+												</div>
+												<div class="field">
+													<label for="message">Mensaje</label>
+													<textarea name="entry.122514966" id="entry.122514966" rows="4"></textarea>
+												</div>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button primary" /></li>
+											</ul>
 										</form>
 									</div>
 									<div class="span-1-5">
